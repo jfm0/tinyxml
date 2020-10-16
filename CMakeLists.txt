@@ -15,18 +15,18 @@ add_definitions(-DTIXML_USE_STL)
 set( tinyxml_srcs tinyxml.cpp tinyxmlparser.cpp tinyxmlerror.cpp tinystr.cpp )
 set( tinyxml_hdrs tinyxml.h tinystr.h )
 
-find_package(catkin REQUIRED COMPONENTS rospy std_msgs)
+#find_package(catkin REQUIRED COMPONENTS rospy std_msgs)
 
-catkin_package(
+#catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES bb_sharp_IR
 ###  CATKIN_DEPENDS rospy std_msgs
 #  DEPENDS system_lib
-)
+#)
 
-include_directories(include
-    ${catkin_INCLUDE_DIRS}
-)
+#include_directories(include
+#    ${catkin_INCLUDE_DIRS}
+#)
 
 
 ################################
